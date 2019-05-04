@@ -2,7 +2,6 @@
 layout: page
 title: Minecraft server
 permalink: /minecraft/
-weight: 2
 ---
 
 Hello and welcome to my Minecraft server. This server will be running

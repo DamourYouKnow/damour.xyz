@@ -2,7 +2,6 @@
 layout: page
 title: Projects
 permalink: /projects/
-weight: 1
 ---
 
 ## [Learn JavaScript](https://github.com/DamourYouKnow/learn-javascript)
