@@ -1,7 +1,8 @@
 ---
-layout: page
-title: Minecraft server
-permalink: /minecraft/
+layout: post
+title:  "Minecraft server live"
+date:   2019-05-13 20:00:00 -0400
+categories: announcements
 ---
 
 Hello and welcome to my Minecraft server. This server will be running
