@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Minecraft server live"
+excerpt: damour.xyz:25565
 date:   2019-05-13 20:00:00 -0400
 categories: announcements
 ---
