@@ -26,7 +26,6 @@ twitch_username: damouryouknow
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
 
