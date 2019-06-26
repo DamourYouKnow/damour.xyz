@@ -25,6 +25,7 @@ discord_server_name: servers[n-1]
 twitch_username: damouryouknow
 
 # Build settings
+highlighter: highlight.js
 markdown: kramdown
 plugins:
   - jekyll-feed
