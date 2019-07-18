@@ -42,7 +42,7 @@ h3 {
 .page-content {
     padding-top: 30px;
     padding-bottom: 30px;
-    min-height: 74vh; /* magic */
+    min-height: 78vh; /* magic */
 }
 
 .navbar {
@@ -55,8 +55,12 @@ h3 {
     margin-right: 70px;
 }
 
-.site-header, .site-footer {
-    background-color:  #eaecee;
+.site-header {
+    background-color:  #373b3e;
+    color: #ffffff;
+} 
+.site-footer {
+    background-color:  #eaecea;
 }
 
 .footer {
@@ -106,19 +110,22 @@ a:hover{
     color: #111;
 }
 
+.fa-bars {
+    color: #ffffff;
+}
 .navbar a:link {
-    color: #424242;
+    color: #ffffff;
     text-decoration: none;
 }
 .navbar a:hover {
-    color: #424242;
+    color: #ffffff;
     text-decoration: underline;
 }
 .navbar a:visited {
-    color: #424242;
+    color: #ffffff;
     text-decoration: none;
 }
 .navbar a:active {
-    color: #424242;
+    color: #ffffff;
     text-decoration: underline;
 }
