@@ -51,10 +51,28 @@ h3 {
     padding-left: 0;
     padding-right: 0;
 }
-
 .navbar-brand {
-    font-size: 26px;
+    font-size: 30px;
     margin-right: 70px;
+}
+.navbar a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+.navbar a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+.navbar a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+.navbar a:active {
+    color: #ffffff;
+    text-decoration: underline;
+}
+.nav-link {
+    font-size: 20px;
 }
 
 .site-header {
@@ -114,20 +132,4 @@ a:hover{
 
 .fa-bars {
     color: #ffffff;
-}
-.navbar a:link {
-    color: #ffffff;
-    text-decoration: none;
-}
-.navbar a:hover {
-    color: #ffffff;
-    text-decoration: underline;
-}
-.navbar a:visited {
-    color: #ffffff;
-    text-decoration: none;
-}
-.navbar a:active {
-    color: #ffffff;
-    text-decoration: underline;
 }
