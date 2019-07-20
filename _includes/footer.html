@@ -8,8 +8,8 @@
 
         <ul class="contact-list">
           <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
+            {%- if site.author_name -%}
+              &copy; {{page.last_modified_at | date: '%Y'}} {{site.author_name}}
             {%- else -%}
               {{ site.title | escape }}
             {%- endif -%}
