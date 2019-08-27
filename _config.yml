@@ -16,6 +16,7 @@
 title: damour.xyz
 author: DamourYouKnow
 author_name: Bailey D'Amour
+email: contact@damour.xyz
 description: >- # this means to ignore newlines until "baseurl:"
   Just another personal website.
 baseurl: "" # the subpath of your site, e.g. /blog

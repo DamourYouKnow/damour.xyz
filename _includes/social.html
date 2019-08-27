@@ -1,4 +1,13 @@
 <ul class="social-media-list">
+  {%- if site.email -%}
+  <li>
+    <a href="mailto:{{ site.email | cgi_escape | escape }}">
+      <span class="far fa-envelope"></span>
+      <span class="username">{{ site.email| escape }}</span>
+    </a>
+  </li>
+  {%- endif -%}
+
   {%- if site.github_username -%}
   <li>
     <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}">

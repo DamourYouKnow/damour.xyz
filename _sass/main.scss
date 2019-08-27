@@ -44,7 +44,6 @@ h3 {
 .page-content {
     padding-top: 30px;
     padding-bottom: 30px;
-    min-height: 78vh; /* magic */
 }
 
 .navbar {
@@ -86,6 +85,10 @@ h3 {
 .footer {
     color: #424242;
     padding: 30px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer-heading {
@@ -106,7 +109,7 @@ h3 {
     color: #828282;
 }
 
-.social-media-list .fab {
+.social-media-list .fab, .social-media-list .far {
     color: #828282;
     padding-right: 3px;
     font-size: 18px;
