@@ -1,0 +1,10 @@
+name: Site workflow
+on: push
+
+jobs:
+  deploy:
+    name: Jekyll deploy
+    runs-on: ubuntu-latest    
+    steps:
+    - uses: actions/checkout@master
+    - uses: ./.github/deploy
