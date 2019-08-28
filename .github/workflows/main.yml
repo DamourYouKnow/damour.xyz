@@ -13,4 +13,4 @@ jobs:
     - uses: actions/checkout@master
     - uses: ./.github/deploy
       env:
-        TEST: ${{secrets.TEST}}
+        TEST: TESTING #${{secrets.TEST}}
