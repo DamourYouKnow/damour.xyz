@@ -1,5 +1,9 @@
 name: Site workflow
-on: push
+on: 
+  push:
+    branches:
+      - master
+
 
 jobs:
   deploy:
@@ -8,3 +12,5 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - uses: ./.github/deploy
+    env:
+      SSH_KEY: ${{secrets.SSH_KEY}}
