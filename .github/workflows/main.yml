@@ -13,4 +13,4 @@ jobs:
     - uses: actions/checkout@master
     - uses: ./.github/deploy
       env:
-        SSH_KEY: ${{secrets.TEST}}
+        TEST: ${{secrets.TEST}}
