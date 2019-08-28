@@ -14,10 +14,10 @@ mkdir -p /root/.ssh && \
     chmod 600 /root/.ssh/id_rsa
 
 echo 'Deleting old site...'
-ssh github@damour.xyz "rm -rf /var/www/damour.xyz/*"
+ssh github@damour.xyz "rm -rf /var/www/damour.xyz/*" -i /root/.ssh/id_rsa
 
 echo 'Deploying site...'
-scp -r _site/* github@damour.xyz:/var/www/damour.xyz:/var/www/damour.xyz
+scp -r _site/* github@damour.xyz:/var/www/damour.xyz:/var/www/damour.xyz -i /root/.ssh/id_rsa
 
 echo 'Site deployed!'
 
