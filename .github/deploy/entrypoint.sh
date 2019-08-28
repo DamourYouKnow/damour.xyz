@@ -6,10 +6,13 @@ bundle list | grep "jekyll ("
 echo 'Building site...'
 bundle exec jekyll build
 
+touch sshkey
+echo $SSH_KEY > sshkey
+
 echo 'Deleting old site...'
-ssh github@damour.xyz "rm -rf /var/www/damour.xyz/*" -i $SSH_KEY
+ssh github@damour.xyz "rm -rf /var/www/damour.xyz/*" -i sshkey
 
 echo 'Deploying site...'
-scp -r _site/* github@damour.xyz:/var/www/damour.xyz:/var/www/damour.xyz -i $SSH_KEY
+scp -r _site/* github@damour.xyz:/var/www/damour.xyz:/var/www/damour.xyz -i sshkey
 
 echo 'Site deployed!'
