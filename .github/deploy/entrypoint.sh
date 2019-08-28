@@ -1,4 +1,7 @@
 #!/bin/sh
+echo 'Installing bundler...'
+gem install bundler
+
 echo 'Installing gem bundle...'
 bundle install
 bundle list | grep "jekyll ("
