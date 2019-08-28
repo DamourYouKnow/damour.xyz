@@ -1,6 +1,6 @@
 #!/bin/sh
 echo 'Installing gem bundle...'
-bundle install > /dev/null 2>&1
+bundle install
 bundle list | grep "jekyll ("
 
 echo 'Building site...'
