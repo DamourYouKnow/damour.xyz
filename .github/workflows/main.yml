@@ -12,5 +12,5 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - uses: ./.github/deploy
-    env:
-      SSH_KEY: ${{secrets.SSH_KEY}}
+      env:
+        SSH_KEY: ${{secrets.SSH_KEY}}
