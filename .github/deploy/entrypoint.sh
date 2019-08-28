@@ -1,4 +1,6 @@
 #!/bin/sh
+echo "$TEST"
+
 echo 'Installing bundler...'
 gem install bundler
 
