@@ -9,12 +9,12 @@ bundle list | grep "jekyll ("
 echo 'Building site...'
 bundle exec jekyll build
 
-mkdir -p /root/.ssh && \
-    chmod 0700 /root/.ssh && \
+mkdir -p $HOME/.ssh && \
+    chmod 0700 $HOME/.ssh && \
     ssh-keyscan damour.xyz > /root/.ssh/known_hosts && \
     # Add the keys and set permissions
-    echo "$SSH_KEY" > /root/.ssh/id_rsa && \
-    chmod 600 /root/.ssh/id_rsa
+    echo "$SSH_KEY" > $HOME/.ssh/id_rsa && \
+    chmod 600 $HOME/.ssh/id_rsa
 
 echo 'Deleting old site...'
 ssh github@damour.xyz "rm -rf /var/www/damour.xyz/*"
@@ -24,4 +24,4 @@ scp -r /github/workspace/_site/* github@damour.xyz:/var/www/damour.xyz:/var/www/
 
 echo 'Site deployed!'
 
-rm -rf /root/.ssh/
+rm -rf $HOME/.ssh/
