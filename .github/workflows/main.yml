@@ -1,0 +1,16 @@
+name: Site workflow
+on: 
+  push:
+    branches:
+      - feat-deploy-action
+
+
+jobs:
+  deploy:
+    name: Jekyll deploy
+    runs-on: ubuntu-latest    
+    steps:
+    - uses: actions/checkout@master
+    - uses: ./.github/deploy
+      env:
+        SSH_KEY: ${{ secrets.SSH_KEY }}
