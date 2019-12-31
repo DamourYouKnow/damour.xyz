@@ -8,7 +8,7 @@ permalink: /projects/
 {% for project in sorted_projects %}
 <div class="project">
     <div class="flex-row project-header">
-        <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+        <h2><a href="{{ project.url }}.html">{{ project.title }}</a></h2>
         <div class="label-row">
             {% if project.built_with %}
             {% for item in project.built_with %}
