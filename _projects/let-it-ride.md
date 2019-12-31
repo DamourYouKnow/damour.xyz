@@ -4,8 +4,9 @@ layout: project
 order: 3
 repository: https://github.com/DamourYouKnow/letitride
 built_with:
-    - python
+    - Python
     - Pygame
+link: github.com/DamourYouKnow/LetItRide
 ---
 
 Let it Ride poker implemented in [Pygame](https://www.pygame.org/). 

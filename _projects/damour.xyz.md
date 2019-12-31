@@ -8,7 +8,7 @@ built_with:
     - CSS
     - JavaScript
     - Jekyll
-link: www.damour.xyz
+link: damour.xyz
 ---
 
 This website.
