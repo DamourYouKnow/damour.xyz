@@ -1,5 +1,5 @@
 ---
-title: OC Transpo API
+title: OC Transpo JS
 layout: project
 order: 2
 repository: https://github.com/DamourYouKnow/oc-transpo-js
