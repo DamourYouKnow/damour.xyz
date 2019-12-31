@@ -3,8 +3,20 @@ layout: default
 ---
 <article class="project">
 
-  <header class="post-header">
+  <header class="post-header project-header">
     <h1>{{ page.title | escape }}</h1>
+    <div class="icon-row">
+      {% if page.repository %}
+      <a href="{{ page.repository }}" target="_blank">
+          <i class="fab fa-github"></i>
+      </a>
+      {% endif %}
+      {% if page.link %}
+      <a href="https://{{ page.link }}" target="_blank">
+        <i class="fas fa-link"></i> {{ page.link }}
+      </a>
+      {% endif %}
+    </div>
   </header>
 
   <div class="project-content">
