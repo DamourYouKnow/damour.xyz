@@ -44,6 +44,18 @@ h3 {
 .page-content {
     padding-top: 30px;
     padding-bottom: 30px;
+    min-height: 78vh; /* magic */
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ul.no-style {
+    list-style-type: none;
+    padding-left: 0;
 }
 
 .navbar {
@@ -85,10 +97,6 @@ h3 {
 .footer {
     color: #424242;
     padding: 30px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
 }
 
 .footer-heading {
@@ -107,6 +115,30 @@ h3 {
 .post-meta {
     font-size: 14px;
     color: #828282;
+}
+
+.label-row {
+    display: block;
+    padding-top: 5px;
+}
+
+.icon-row i {
+    color: #6c757d;
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+.project-header {
+    margin-bottom: 15px;
+}
+
+.project-header h2 {
+    margin-bottom: 0px;
+    margin-right: 10px;
 }
 
 .social-media-list .fab, .social-media-list .far {

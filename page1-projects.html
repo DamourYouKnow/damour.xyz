@@ -4,7 +4,34 @@ title: Projects
 permalink: /projects/
 ---
 
-{% for project in site.projects %}
-    <h2><a href="{{ project.url }}">{{ project.name }}</a></h2>
-    <div>{{ project.content }}</div>
+{% assign sorted_projects = site.projects | sort:"order" %}
+{% for project in sorted_projects %}
+<div class="project">
+    <div class="flex-row project-header">
+        <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+        <div class="label-row">
+            {% if project.built_with %}
+            {% for item in project.built_with %}
+                <span class="badge badge-secondary">{{ item }}</span>
+            {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+    
+    
+    {{ project.excerpt }}
+    
+    <div class="icon-row">
+        {% if project.repository %}
+        <a href="{{ project.repository }}" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+        {% endif %}
+        {% if project.link %}
+        <a href="https://{{ project.link }}" target="_blank">
+            <i class="fas fa-link"></i> {{ project.link }}
+        </a>
+        {% endif %}
+    </div>
+</div>
 {% endfor %}
