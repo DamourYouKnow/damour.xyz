@@ -141,10 +141,21 @@ ul.no-style {
     margin-right: 10px;
 }
 
+.social-media-list {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style-type: none;
+    height: 5em;
+}
 .social-media-list .fab, .social-media-list .far {
     color: #828282;
-    padding-right: 3px;
+    padding-right: 4px;
     font-size: 18px;
+}
+.social-media-list li {
+    padding-right: 2em;
 }
 
 .contact-list {
@@ -156,11 +167,6 @@ ul.no-style {
 .copyright-notice {
     color: #828282;
     font-size: 12px;
-}
-
-.social-media-list {
-    padding: 0;
-    list-style-type: none;
 }
 
 a {

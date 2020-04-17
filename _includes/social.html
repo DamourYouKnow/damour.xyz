@@ -3,32 +3,32 @@
   <li>
     <a href="mailto:{{ site.email | cgi_escape | escape }}">
       <span class="far fa-envelope"></span>
-      <span class="username">{{ site.email| escape }}</span>
+      <span class="username">{{ site.email | escape }}</span>
     </a>
   </li>
   {%- endif -%}
 
   {%- if site.github_username -%}
   <li>
-    <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}">
+    <a href="https://github.com/{{ site.github_username | cgi_escape | escape }}">
       <span class="fab fa-github"></span>
-      <span class="username">{{ site.github_username| escape }}</span>
+      <span class="username">{{ site.github_username | escape }}</span>
     </a>
   </li>
   {%- endif -%}
 
   {%- if site.twitter_username -%}
   <li>
-    <a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}">
+    <a href="https://www.twitter.com/{{ site.twitter_username | cgi_escape | escape }}">
       <span class="fab fa-twitter"></span>
-      <span class="username">{{ site.twitter_username| escape }}</span>
+      <span class="username">{{ site.twitter_username | escape }}</span>
     </a>
   </li>
   {%- endif -%}
 
   {%- if site.youtube_username -%}
   <li>
-    <a href="https://youtube.com/{{ site.youtube_username| cgi_escape | escape }}">
+    <a href="https://youtube.com/channel/{{ site.youtube_id | cgi_escape | escape }}">
       <class class="fab fa-youtube"></class>
       <span class="username">{{ site.youtube_username| escape }}</span>
     </a>
