@@ -81,8 +81,8 @@ function map(array, func) {
     const result = [];
     for (const item of array) {
         // Apply the function to each array item and add the result to the
-        // retured array.
-        array.push(func(item));
+        // returned array.
+        result.push(func(item));
     }
     return result;
 }
@@ -144,7 +144,7 @@ function filter(array, predicate) {
 const foo = filter([5, 12, 10, 4, 18], (x) => x >= 10);
 ```
 
-It is noting that there are extra optional parameters that can be 
+It is worth noting that there are extra optional parameters that can be 
 used in the functions passed into `map` and `filter`. You can learn more 
 from the JavaScript `Array` class [documentation page](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
 
