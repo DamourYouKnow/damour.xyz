@@ -69,7 +69,7 @@ const foo = [1, 2, 3, 4, 5].map((x) => x * 2);
 
 Very concise. 
 
-To replicate the behaviour of `map` we can create a function take accepts two 
+To replicate the behaviour of `map` we can create a function that accepts two 
 inputs, an array and a function that performs an operation on an item in the 
 array. We can loop through each item in the array, apply the parameter function 
 to each item, and add the transformed item to the new array that will be 
