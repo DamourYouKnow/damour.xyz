@@ -169,6 +169,15 @@ ul.no-style {
     font-size: 12px;
 }
 
+pre {
+    padding-left: 0.9em;
+    margin-bottom:1.5em;
+    border-left: solid 3px #86cecb;
+}
+pre, pre > code {
+    background-color: #f4f7f4 !important;
+}
+
 a {
     color: #2a7ae2;
 }
