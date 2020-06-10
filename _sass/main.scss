@@ -53,6 +53,10 @@ h3 {
     flex-wrap: wrap;
 }
 
+.spaced > * {
+    padding-right: 0.5em;
+}
+
 ul.no-style {
     list-style-type: none;
     padding-left: 0;
@@ -187,4 +191,24 @@ a:hover{
 
 .fa-bars {
     color: #ffffff;
+}
+
+// Scheduler
+#startDate {
+    max-width: 10em;
+}
+#hour {
+    max-width: 4em;
+}
+#minute {
+    max-width: 4em;
+}
+#am-pm-container {
+    position: relative;
+    margin-bottom: 1rem;
+}
+#am-pm {
+    max-height: 4em;
+    position: absolute;
+    bottom: 0;
 }

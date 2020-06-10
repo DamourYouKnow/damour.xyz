@@ -5,15 +5,31 @@ layout: default
 <form onsubmit="return false;">
     <div class="form-group">
         <label for="title">Event title</label>
-        <input id="title" type="text" class="form-control" placeholder="Event title">
+        <input id="title" type="time" class="form-control" placeholder="Event title">
     </div>
     <div class="form-group">
         <label for="description">Description</label>
         <textarea id="description" type="text" class="form-control" placeholder="Event description"></textarea>
     </div>
-    <div class="form-group">
-        <label for="exampleInputPassword1">Start date</label>
-        <input id="startDate" type="date" class="form-control" >
+    <div class="flex-row spaced">
+        <div class="form-group">
+            <label for="exampleInputPassword1">Start date</label>
+            <input id="startDate" type="date" class="form-control" >
+        </div>
+        <div class="form-group">
+            <label for="hour">Hour</label>
+            <input id="hour" type="number" class="form-control" placeholder="12">
+        </div>
+        <div class="form-group">
+            <label for="minute">Minute</label>
+            <input id="minute" type="number" class="form-control" placeholder="00">
+        </div>
+        <div id="am-pm-container">
+            <div id="am-pm" class="btn-group" role="group" aria-label="A.M. / P.M.">
+                <button id="am" type="button" class="btn btn-dark">A.M.</button>
+                <button id="pm" type="button" class="btn btn-secondary">P.M.</button>
+            </div>
+        </div>
     </div>
     <button id="submit" type="submit" class="btn btn-primary">Add event</button>
 </form>
