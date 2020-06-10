@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<form onsubmit="return false;">
+    <div class="form-group">
+        <label for="title">Event title</label>
+        <input id="title" type="text" class="form-control" placeholder="Event title">
+    </div>
+    <div class="form-group">
+        <label for="description">Description</label>
+        <textarea id="description" type="text" class="form-control" placeholder="Event description"></textarea>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Start date</label>
+        <input id="startDate" type="date" class="form-control" >
+    </div>
+    <button id="submit" type="submit" class="btn btn-primary">Add event</button>
+</form>
+
+<script src="/scheduler.js"></script>

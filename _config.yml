@@ -51,4 +51,7 @@ plugins:
 collections:
   projects:
     output: true
-    permalink: /:collection/:name  
+    permalink: /:collection/:name
+  apps:
+    output: true
+    permalink: /:collection/:name 
