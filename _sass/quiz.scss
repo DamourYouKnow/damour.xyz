@@ -1,12 +1,47 @@
 .quiz-question {
-    border: solid 1px black;
+    font-size: 1.5em;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    display: none;
 }
 
 .quiz-question-answers {
     list-style: none;
-    background-color: blanchedalmond;
+    margin: 0;
+    padding: 0;
+    font-size: 0.8em;
 }
 
-.quiz-question-answers li:hover {
-    background-color: cadetblue;
+.quiz-question-answers > li {
+    margin-top: 1em;
+    padding: 0.4em;
+    cursor: pointer;
+}
+
+.quiz-question-answers > li:hover {
+    cursor: pointer;
+}
+
+.persona-5 {
+    font-style: op;
+    background-color: #c00007;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+
+.persona-5-options > li {
+    background-color: black;
+    border: white 0.1em solid;
+    color: white;
+    text-shadow: none;
+}
+
+.persona-5-options > li:hover {
+    background-color: white;
+    border: black 0.1em solid;
+    color: black;
+    text-shadow: none;
 }
