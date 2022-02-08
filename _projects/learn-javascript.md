@@ -6,6 +6,8 @@ repository: https://github.com/DamourYouKnow/learn-javascript
 built_with:
     - TypeScript
     - Node.js
+    - HTLM
+    - CSS
 link: learnjs.damour.xyz
 ---
 

@@ -9,6 +9,8 @@ built_with:
     - Razor
     - MySQL
     - Web Sockets
+    - HTML
+    - CSS
 link: gogomic.co
 ---
 
