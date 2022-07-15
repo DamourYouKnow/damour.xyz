@@ -67,7 +67,7 @@ ul.no-style {
 }
 .navbar-brand {
     font-size: 2em;
-    margin-right: 2.5em;
+    padding-right: 1.5em;
 }
 .navbar a:link {
     color: #ffffff;
@@ -103,9 +103,18 @@ ul.no-style {
     padding: 1.5em;
 }
 
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5em;
+}
+
 .footer-heading {
     color: #111;
     font-size: 1.2em;
+    margin-bottom: 0.5em;
 }
 
 .home {
@@ -120,6 +129,7 @@ ul.no-style {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .home-name {
@@ -168,24 +178,26 @@ ul.no-style {
 }
 
 .social-media-list {
+    list-style-type: none;
     padding: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    list-style-type: none;
-    height: 5em;
+    max-width: 30em;
+    column-gap: 2em;
+    align-content: flex-start;
+}
+.social-media-list > li {
+    min-width: 12em;
 }
 .social-media-list .fab, .social-media-list .far {
     color: #828282;
     padding-right: 0.2em;
-    font-size: 1em;
-}
-.social-media-list li {
-    padding-right: 2em;
 }
 
 .contact-list {
     padding: 0;
+    font-size: 0.9em;
     list-style-type: none;
     color: #828282;
 }

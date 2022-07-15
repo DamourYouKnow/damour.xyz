@@ -1,27 +1,21 @@
 <footer class="footer site-footer">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  <div class="footer-content">
+    <div class="footer-name">
+      <span class="footer-heading">{{ site.title | escape }}</span>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author_name -%}
-              &copy; {{page.last_modified_at | date: '%Y'}} {{site.author_name}}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-        </ul>
-      </div>
-
-      <div class="col-md-4">
-        {%- include social.html -%}
-      </div>
+      <ul class="contact-list">
+        <li class="p-name">
+          {%- if site.author_name -%}
+            &copy; {{'now' | date: '%Y'}} {{site.author_name}}
+          {%- else -%}
+            {{ site.title | escape }}
+          {%- endif -%}
+        </li>
+      </ul>
     </div>
 
+    <div class="social-links">
+      {%- include social.html -%}
+    </div>
   </div>
-
 </footer>
