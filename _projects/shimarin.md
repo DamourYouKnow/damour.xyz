@@ -8,7 +8,7 @@ built_with:
     - Node.js
     - MongoDB
     - GraphQL
-link: https://github.com/DamourYouKnow/shimarin
+link: github.com/DamourYouKnow/shimarin
 ---
 
 A discord bot that integrates with the [AniList](https://anilist.co/) platform 
