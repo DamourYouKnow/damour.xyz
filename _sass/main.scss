@@ -11,6 +11,13 @@ body {
         "Apple Color Emoji", 
         "Segoe UI Emoji", 
         "Segoe UI Symbol";
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
 }
 
 p {
@@ -44,7 +51,6 @@ h3 {
 .page-content {
     padding-top: 30px;
     padding-bottom: 30px;
-    min-height: 78vh; /* magic */
 }
 
 .flex-row {
@@ -102,6 +108,28 @@ ul.no-style {
 .footer-heading {
     color: #111;
     font-size: 18px;
+}
+
+.home {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-name {
+    font-size: 4em;
+}
+
+.home-description {
+    font-size: 1.5em;
 }
 
 .post-list {
