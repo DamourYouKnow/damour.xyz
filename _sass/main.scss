@@ -14,6 +14,7 @@ body {
     display: flex;
     height: 100vh;
     flex-direction: column;
+    font-size: 1.05rem;
 }
 
 main {
@@ -21,36 +22,32 @@ main {
 }
 
 p {
-    margin-bottom: 15px;
+    margin-bottom: 1em;
 }
 
 h1 {
-    font-size: 27px;
-    margin-bottom: 15px;
-    padding-bottom: 5px;
+    font-size: 2.3em;
+    margin-bottom: 0.7em;
+    padding-bottom: 0.3em;
     border-bottom: 1px solid #eaecea;
 }
 
 h2 {
-    font-size: 27px;
-    margin-bottom: 15px;
+    font-size: 1.6em;
+    margin-bottom: 1em;
 }
 
 h3 {
-    font-size: 24px;
-}
-
-.post-header {
-    margin-bottom: 30px;
+    font-size: 1.4em;
 }
 
 .container {
-    max-width: 800px;
+    max-width: 1000px;
 }
 
 .page-content {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .flex-row {
@@ -69,8 +66,8 @@ ul.no-style {
     padding-right: 0;
 }
 .navbar-brand {
-    font-size: 30px;
-    margin-right: 70px;
+    font-size: 2em;
+    margin-right: 2.5em;
 }
 .navbar a:link {
     color: #ffffff;
@@ -89,7 +86,8 @@ ul.no-style {
     text-decoration: underline;
 }
 .nav-link {
-    font-size: 20px;
+    font-size: 1.3em;
+    margin-right: 0.5em;
 }
 
 .site-header {
@@ -102,12 +100,12 @@ ul.no-style {
 
 .footer {
     color: #424242;
-    padding: 30px;
+    padding: 1.5em;
 }
 
 .footer-heading {
     color: #111;
-    font-size: 18px;
+    font-size: 1.2em;
 }
 
 .home {
@@ -137,27 +135,27 @@ ul.no-style {
     padding: 0;
 }
 .post-list > li {
-    margin-bottom: 30px;
+    margin-bottom: 3em;
 }
 
 .post-meta {
-    font-size: 14px;
+    font-size: 1em;
     color: #828282;
 }
 
 .label-row {
     display: block;
-    padding-top: 5px;
+    padding-top: 0.3em;
 }
 
 .icon-row i {
     color: #6c757d;
-    font-size: 20px;
-    padding-right: 5px;
+    font-size: 1.2em;
+    padding-right: 0.3em;
 }
 
 .project {
-    margin-bottom: 40px;
+    margin-bottom: 3em;
 }
 
 .project-header {
@@ -179,8 +177,8 @@ ul.no-style {
 }
 .social-media-list .fab, .social-media-list .far {
     color: #828282;
-    padding-right: 4px;
-    font-size: 18px;
+    padding-right: 0.2em;
+    font-size: 1em;
 }
 .social-media-list li {
     padding-right: 2em;
@@ -194,7 +192,7 @@ ul.no-style {
 
 .copyright-notice {
     color: #828282;
-    font-size: 12px;
+    font-size: 1em;
 }
 
 pre {
